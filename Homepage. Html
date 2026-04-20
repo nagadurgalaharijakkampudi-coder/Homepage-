@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Google Clone</title>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+/* Top Right Links */
+.top-links {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.top-links a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/* Center Content */
+.container {
+    margin-top: 150px;
+}
+
+/* Logo */
+.logo {
+    font-size: 60px;
+    font-weight: bold;
+    color: #4285F4;
+}
+
+.logo span:nth-child(2) { color: #DB4437; }
+.logo span:nth-child(3) { color: #F4B400; }
+.logo span:nth-child(4) { color: #4285F4; }
+.logo span:nth-child(5) { color: #0F9D58; }
+.logo span:nth-child(6) { color: #DB4437; }
+
+/* Search Box */
+.search-box {
+    margin-top: 20px;
+}
+
+.search-box input {
+    width: 400px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #f2f2f2;
+    padding: 10px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="top-links">
+    <a href="#">Gmail</a>
+    <a href="#">Images</a>
+</div>
+
+<div class="container">
+
+    <div class="logo">
+        <span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Google">
+    </div>
+
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+
+</div>
+
+<footer>
+    <p>India</p>
+</footer>
+
+</body>
+</html>
+
+OUTPUT :
+Gmail   Images
+
+
+                 GOOGLE (colored letters)
+
+            [   Search Google Box       ]
+
+         [ Google Search ] [ I'm Feeling Lucky ]
+
+
+--------------------------------------------------
+                     India
+--------------------------------------------------
